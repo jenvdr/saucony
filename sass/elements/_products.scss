@@ -1,0 +1,120 @@
+.categories-section{
+    padding-top:120vh;
+}
+
+.aya-section {
+    max-width:600px;
+    height:80vh;
+    background-image:url('../../assets/gifs/gif02.gif');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: 140%;
+    background-position-y: 5vh;
+    padding-right:12vw;
+    overflow:hidden;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: left;
+    .product-description {
+        margin-left:2vw;
+        width:200px;
+    }
+    .aya {
+    width: 300px;
+    height: 230px;
+    background-image: url("../../assets/saucony-aya-runner-S70460-1-2 copy.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    &:hover{
+    width: 300px;
+    height: 230px;
+    background-image: url("../../assets/sauconyaya-1559932707.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    }
+}
+}
+
+.azura-section{
+    max-width:600px;
+    height:80vh;
+    background-image:url('../../assets/gifs/gif03.gif');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: -50%;
+    padding-top:20vh;
+    padding-left:150px;
+    overflow:hidden;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+.azura {
+    width: 300px;
+    height: 230px;
+    background-image: url("../../assets/azura01.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    &:hover{
+    width: 300px;
+    height: 230px;
+    background-image: url("../../assets/azura02.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    }
+}
+}
+
+.shadow-section{
+    max-width:600px;
+    height:80vh;
+    background-image:url('../../assets/gifs/gif04.gif');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: 110%;
+    overflow:hidden;
+    .product-description {
+        text-align: center;
+        width:200px;
+    }
+.shadow {
+    width: 300px;
+    height: 230px;
+    background-image: url("../../assets/shadow01.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    &:hover{
+    width: 300px;
+    height: 230px;
+    background-image: url("../../assets/shadow02.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: inline-block;
+    }
+}
+}
+
+.product {
+    p {
+        color:rgba(80, 210, 197, 0.834);
+        width: 200px;
+        font-size: 18px;
+        font-family: 'gotham light';
+        margin-bottom:5vh;
+    }
+    button {
+        color:rgba(80, 210, 197, 0.834);
+        font-family: 'gotham bold';
+        font-size: 14px;
+        text-transform: uppercase;
+        border: 2px solid rgba(80, 210, 197, 0.344);
+        padding: 10px 15px;
+    }
+}

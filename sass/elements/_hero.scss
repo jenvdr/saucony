@@ -1,0 +1,33 @@
+@import "/Users/Jen/Desktop/wolverine/saucony/sass/elements/_variables.scss";
+
+.hero-section {
+    max-width:600px;
+    max-width:600px;
+    height:150vh;
+    background-image:url('../../assets/Lifestyle/SAUCONY-DECADES-80S-IMAGE-7.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow:hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35vh;
+    padding-bottom: 1vh;
+    position:relative;
+        h1 {
+            font-size:36px;
+            color:white;
+            text-transform: uppercase;
+        }
+        .heading {
+            font-family:'gotham light';
+        }
+        .subheading {
+            font-family:'gotham black';
+        }
+        .logo {
+            width: 200px;
+        }
+    }

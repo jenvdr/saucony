@@ -1,0 +1,18 @@
+.introduction {
+    max-width:600px;
+    height:140vh;
+    background-image:url('../../assets/gifs/gif01.gif');
+    background-size:contain;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    position: absolute;
+    p {
+        width:50%;
+        margin: 15vh 3vw auto auto;
+        text-align: right;
+        font-size:18px;
+        color:rgba(80, 210, 197, 0.834);
+        text-transform: uppercase;
+        font-family:'gotham black';
+    }
+}
