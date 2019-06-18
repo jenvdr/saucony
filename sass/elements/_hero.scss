@@ -2,8 +2,9 @@
 
 .hero-section {
     max-width:600px;
-    max-width:600px;
-    height:150vh;
+    min-width:600px;
+    max-height:1000px;
+    min-height: 890px;
     background-image:url('../../assets/Lifestyle/SAUCONY-DECADES-80S-IMAGE-7.jpg');
     background-size:cover;
     background-repeat: no-repeat;
@@ -13,7 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-top: 35vh;
+    padding-top: 190px;
     padding-bottom: 1vh;
     position:relative;
         h1 {

@@ -6,24 +6,27 @@
     flex-direction:row;
     justify-content:space-between;
     width: 70%;
-    margin:5vh auto;
-    padding: 5vh 0;
+    margin:50px auto;
+    padding: 20px 0;
     li {
         font-size: 3rem;
         a {
             text-decoration:none;
             font-family: 'gotham black';
             color:rgba(80, 210, 197, 0.834);
+            &:hover {
+                color:rgba(57, 151, 142, 0.834);
+            }
         }
     }
 }
 
 .meta {
-    margin: 4vh auto;
+    margin: 10px auto;
     width: 600px;
     h3 {
         text-align:center;
-        padding-top: 15vh;
+        padding-top: 70px;
         text-transform:uppercase;
         font-family: 'gotham black';
         color:rgba(80, 210, 197, 0.834);
@@ -42,6 +45,9 @@
             text-transform: uppercase;
             border: 2px solid rgba(80, 210, 197, 0.344);
             padding: 5px 15px;
+        }
+        a:hover {
+            color:rgba(57, 151, 142, 0.834);
         }
     }
 }
