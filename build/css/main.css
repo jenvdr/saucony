@@ -24,7 +24,7 @@ body {
 
 .hero-section {
   max-width: 600px;
-  min-width: 600px;
+  width: 100vw;
   max-height: 1000px;
   min-height: 890px;
   background-image: url("../../assets/Lifestyle/SAUCONY-DECADES-80S-IMAGE-7.jpg");
@@ -55,6 +55,7 @@ body {
   .hero-section .heading {
     font-family: 'gotham light'; }
   .hero-section .subheading {
+    text-align: center;
     font-family: 'gotham black'; }
   .hero-section .logo {
     width: 200px; }
@@ -75,7 +76,8 @@ body {
 
 .introduction {
   max-width: 600px;
-  min-height: 800px;
+  width: 100vw;
+  min-height: 700px;
   background-image: url("../../assets/gifs/gif01.gif");
   background-size: contain;
   background-repeat: no-repeat;
@@ -116,7 +118,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 70%;
+  max-width: 500px;
+  width: 80vw;
   margin: 50px auto;
   padding: 20px 0; }
   .social-icons li {
@@ -130,7 +133,8 @@ body {
 
 .meta {
   margin: 10px auto;
-  width: 600px; }
+  max-width: 600px;
+  width: 100vw; }
   .meta h3 {
     text-align: center;
     padding-top: 70px;
@@ -155,7 +159,7 @@ body {
     .meta .meta-links-list li > a {
       text-decoration: none;
       color: rgba(80, 210, 197, 0.834);
-      font-family: 'gotham bold';
+      font-family: 'gotham black';
       font-size: 14px;
       text-transform: uppercase;
       border: 2px solid rgba(80, 210, 197, 0.344);
@@ -164,7 +168,8 @@ body {
       color: rgba(57, 151, 142, 0.834); }
 
 body > footer > div {
-  width: 600px;
+  max-width: 600px;
+  width: 100vw;
   overflow: hidden; }
   body > footer > div img {
     width: 1000px;
@@ -185,17 +190,17 @@ body > footer > div {
   font-style: normal; }
 
 .categories-section {
-  padding-top: 700px; }
+  padding-top: 600px; }
 
 .aya-section {
   max-width: 600px;
-  min-width: 300px;
-  height: 600px;
+  width: 100vw;
+  height: 620px;
   background-image: url("../../assets/gifs/gif02.gif");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: 140%;
-  background-position-y: 5vh;
+  background-position-y: 50px;
   padding-right: 12vw;
   overflow: hidden;
   display: -webkit-box;
@@ -205,15 +210,13 @@ body > footer > div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left; }
   .aya-section .product-description {
-    margin-left: 10%;
-    width: 200px; }
+    width: 260px; }
   .aya-section .aya {
-    width: 300px;
+    width: 100%;
     height: 200px;
     background-image: url("../../assets/saucony-aya-runner-S70460-1-2 copy.jpg");
     background-repeat: no-repeat;
@@ -229,14 +232,13 @@ body > footer > div {
 
 .azura-section {
   max-width: 600px;
-  min-width: 300px;
-  height: 600px;
+  width: 100vw;
   background-image: url("../../assets/gifs/gif03.gif");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: -50%;
+  background-position-x: -100%;
   padding-top: 20px;
-  padding-left: 270px;
+  padding-left: 250px;
   padding-bottom: 250px;
   overflow: hidden;
   display: -webkit-box;
@@ -246,13 +248,13 @@ body > footer > div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
+  text-align: right;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .azura-section .azura {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: 230px;
     background-image: url("../../assets/azura01.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -262,14 +264,16 @@ body > footer > div {
       height: 230px;
       background-image: url("../../assets/azura02.jpg");
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       display: inline-block; }
       .azura-section .azura:hover p {
-        width: 100%; }
+        width: 90px; }
+    .azura-section .azura .product-description {
+      width: 200px; }
 
 .shadow-section {
   max-width: 600px;
-  min-width: 300px;
+  width: 100vw;
   height: 600px;
   padding-top: 70px;
   background-image: url("../../assets/gifs/gif04.gif");
@@ -278,7 +282,6 @@ body > footer > div {
   background-position-x: 123%;
   overflow: hidden; }
   .shadow-section .product-description {
-    text-align: center;
     width: 200px; }
   .shadow-section .shadow {
     width: 300px;
@@ -297,24 +300,23 @@ body > footer > div {
 
 .product p {
   color: rgba(80, 210, 197, 0.834);
-  min-width: 200px;
   font-size: 18px;
   font-family: 'gotham light';
   margin-bottom: 5%; }
 
 .product button {
   color: rgba(80, 210, 197, 0.834);
-  font-family: 'gotham bold';
+  font-family: 'gotham black';
   font-size: 14px;
   text-transform: uppercase;
   border: 2px solid rgba(80, 210, 197, 0.344);
-  padding: 10px 15px; }
+  padding: 10px 15px;
+  background-color: transparent; }
   .product button:hover {
     color: rgba(57, 151, 142, 0.834); }
 
 .emphasis {
   color: rgba(69, 185, 173, 0.834);
-  min-width: 200px;
   font-size: 18px;
   font-family: 'gotham black';
   margin-bottom: 5%; }

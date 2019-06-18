@@ -1,29 +1,27 @@
 @import "/Users/Jen/Desktop/wolverine/saucony/sass/elements/_fonts.scss";
 .categories-section{
-    padding-top:700px;
+    padding-top:600px;
 }
 
 .aya-section {
     max-width:600px;
-    min-width:600px;
-    height:600px;
+    width:100vw;
+    height:620px;
     background-image:url('../../assets/gifs/gif02.gif');
     background-size:contain;
     background-repeat: no-repeat;
     background-position-x: 140%;
-    background-position-y: 5vh;
+    background-position-y: 50px;
     padding-right:12vw;
     overflow:hidden;
     display:flex;
     flex-direction: column;
-    text-align: center;
     justify-content: left;
     .product-description {
-        margin-left:10%;
-        width:200px;
+        width:260px;
     }
     .aya {
-    width: 300px;
+    width: 100%;
     height: 200px;
     background-image: url("../../assets/saucony-aya-runner-S70460-1-2 copy.jpg");
     background-repeat: no-repeat;
@@ -42,23 +40,22 @@
 
 .azura-section{
     max-width:600px;
-    min-width:600px;
-    height:600px;
+    width:100vw;
     background-image:url('../../assets/gifs/gif03.gif');
     background-size:contain;
     background-repeat: no-repeat;
-    background-position-x: -50%;
+    background-position-x: -100%;
     padding-top:20px;
-    padding-left:270px;
+    padding-left:250px;
     padding-bottom: 250px;
     overflow:hidden;
     display:flex;
     flex-direction: column;
-    text-align: center;
+    text-align: right;
     justify-content: space-between;
 .azura {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: 230px;
     background-image: url("../../assets/azura01.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -68,18 +65,22 @@
     height: 230px;
     background-image: url("../../assets/azura02.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: inline-block;
     p {
-        width:100%;
+        width:90px;
     }
+    }
+    .product-description{
+        width:200px;
     }
 }
 }
 
+
 .shadow-section{
     max-width:600px;
-    min-width:600px;
+    width:100vw;
     height:600px;
     padding-top:70px;
     background-image:url('../../assets/gifs/gif04.gif');
@@ -88,7 +89,6 @@
     background-position-x: 123%;
     overflow:hidden;
     .product-description {
-        text-align: center;
         width:200px;
     }
 .shadow {
@@ -112,7 +112,6 @@
 .product {
     p {
         color:rgba(80, 210, 197, 0.834);
-        min-width: 200px;
         font-size: 18px;
         font-family: 'gotham light';
         margin-bottom:5%;
@@ -124,6 +123,7 @@
         text-transform: uppercase;
         border: 2px solid rgba(80, 210, 197, 0.344);
         padding: 10px 15px;
+        background-color: transparent;
         &:hover {
             color:rgba(57, 151, 142, 0.834);
         }
@@ -132,8 +132,8 @@
 
 .emphasis {
     color:rgba(69, 185, 173, 0.834);
-    min-width: 200px;
     font-size: 18px;
     font-family: 'gotham black';
     margin-bottom:5%;
 }
+
