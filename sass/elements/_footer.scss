@@ -5,7 +5,8 @@
     display: flex;
     flex-direction:row;
     justify-content:space-between;
-    width: 70%;
+    max-width:600px;
+    min-width:600px;
     margin:50px auto;
     padding: 20px 0;
     li {
@@ -23,7 +24,8 @@
 
 .meta {
     margin: 10px auto;
-    width: 600px;
+    max-width:600px;
+    min-width:600px;
     h3 {
         text-align:center;
         padding-top: 70px;
@@ -53,7 +55,8 @@
 }
 
 body > footer > div {
-    width:600px;
+    max-width:600px;
+    min-width:600px;
     overflow: hidden;
     img {
         width: 1000px;
